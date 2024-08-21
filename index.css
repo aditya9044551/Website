@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #050e2d;
+}
+
+header {
+  display: flex;
+  background: #1b2141;
+  height: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid black;
+  background-repeat: no-repeat;
+}
+
+.patent_logo {
+  width: 65px;
+}
+
+.logo_container {
+  margin: 4%;
+}
+
+.action_bar {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+.action-container {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.action-name:hover {
+  background-color: #2980b9;
+}
+
+.nav_bar {
+  min-width: 500px;
+}
+
+.nav_bar a {
+  margin: 0px 25px;
+  padding: 3px 6px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.nav_bar a:hover {
+  background: #1aeeef;
+  color: #050e2d;
+  box-shadow: 0 0 5px #1aeeef;
+}
+
+.search_bar {
+  display: flex;
+  height: 50px;
+  min-width: 300px;
+  width: 30%;
+  align-items: center;
+}
+
+.search_icon .close_icon {
+  box-sizing: content-box;
+  height: 30px;
+  padding: 10px;
+}
+
+.search_input {
+  color: gray;
+  background-color: aliceblue;
+  border-radius: 15px;
+  flex-grow: 1;
+  height: 35px;
+}
+
+/* banner */
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .bg {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.banner .bg .content {
+  width: 50%;
+  height: 100%;
+}
+
+.banner .bg .content h2 {
+  font-size: 4em;
+  color: white;
+  letter-spacing: 1px;
+}
+.banner .bg .content p {
+  font-size: 1em;
+  color: #dbd9db;
+}
+.banner .bg .content a {
+  display: inline-block;
+  text-transform: uppercase;
+  border: 1px solid #1aeeef;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+.banner .bg .content a:hover {
+  background: #1aeeef;
+  border: none;
+  color: #050e2d;
+  box-shadow: 0 0 10px #1aeeef;
+}
+
+.bg_row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.category_heading {
+  text-transform: uppercase;
+  color: gray;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+.category_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Shooting {
+  margin: 20px;
+  height: 362px;
+  width: 260px;
+}
+
+.footer_container {
+  padding: 30px 0px 40px 0px;
+  text-transform: uppercase;
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_column h3 {
+  color: gray;
+  font-size: 15px;
+  margin: 25px;
+}
+
+.footer_column {
+  color: gray;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+/* About */
+.about {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .contentBx {
+  width: 50%;
+  margin: 30px;
+}
+.about .contentBx h2 {
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+}
+.about .contentBx p {
+  max-width: 600px;
+  text-align: justify;
+  color: #dbd9d9;
+}
+.about .contentBx a {
+  display: inline-block;
+  text-transform: uppercase;
+  border: 1px solid #1aeeef;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+.about .contentBx a:hover {
+  background: #1aeeef;
+  border: none;
+  color: #050e2d;
+  box-shadow: 0 0 10px #1aeeef;
+}
+
+.game {
+  text-align: -webkit-center;
+}
+
+.details_button {
+  width: fit-content;
+  border: 1px solid #1aeeef;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 0;
+  color: #1aeeef;
+  bottom: 120px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  background-color: #00000000;
+}
+
+.details_button:hover {
+  bottom: 120px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  background: #1aeeef;
+  border: none;
+  color: #050e2d;
+  box-shadow: 0 0 10px #1aeeef;
+}
+
+.game_details {
+  color: #1aeeef;
+  height: 500px;
+  padding: 20px;
+  background-color: #1a1a1ae9;
+  border-radius: 10px;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bada_baadeee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download_link {
+  width: fit-content;
+  border: 1px solid #1aeeef;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 20px;
+  color: #1aeeef;
+  bottom: 120px;
+  background-color: #00000000;
+}
+
+.download_link:hover {
+  bottom: 120px;
+  background: #1aeeef;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 20px;
+  color: #050e2d;
+  box-shadow: 0 0 10px #1aeeef;
+}
